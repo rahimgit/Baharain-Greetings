@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "509061438294",
+    "firebase_url": "https://baharain-greetings.firebaseio.com",
+    "project_id": "baharain-greetings",
+    "storage_bucket": "baharain-greetings.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509061438294:android:e825c7839eadb85de254f7",
+        "android_client_info": {
+          "package_name": "com.MushtaqRahim.BaharainGreetings"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509061438294-un2bdvk4g5cpoqgb3mtgla4k1979ftkv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.MushtaqRahim.BaharainGreetings",
+            "certificate_hash": "dfddcd6a892dc1e5ff469d7d6451920231d1c08f"
+          }
+        },
+        {
+          "client_id": "509061438294-rcgcnr443njn2pqu854kguulivc1k0ft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFJ-0M3zvde8DeegTTpBfRFVPqlFzZtnQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509061438294-rcgcnr443njn2pqu854kguulivc1k0ft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

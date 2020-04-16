@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Baharain_Greetings.Mainpage2">
+    <ContentPage.Content>
+
+        <Grid>
+        <StackLayout x:Name="webviewLayout">
+            <Label   Text="web" IsVisible="False" x:Name="labelLoading"/>
+            <WebView x:Name="webView" WidthRequest="100" HeightRequest="1000" Navigating="WebView_Navigating" />
+
+           
+        </StackLayout>
+
+            <StackLayout IsVisible="True" x:Name="busyIndicator"  BackgroundColor="White" Opacity="1" Orientation="Vertical">
+            <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+                <ActivityIndicator Color="#2B428E" IsRunning="true" />
+                <Label x:Name="progressname" Text="Loading..." TextColor="#2B428E" VerticalOptions="Center" />
+            </StackLayout>
+        </StackLayout>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
